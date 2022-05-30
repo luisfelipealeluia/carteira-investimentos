@@ -1,4 +1,83 @@
-.container {
-    display: flex;
+* {
+    margin: 0;
+    font-family: sans-serif;
 }
 
+.container {
+    display: flex;
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+
+.sidebar {
+    min-width: 250px;
+    border-right: 1px solid black;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar img {
+    /* border: 1px solid black; */
+    border-radius: 100%;
+}
+
+.main {
+    padding: 30px;
+}
+
+.main .name {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main .description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.main .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    display: flex;
+    flex-basis: 0;
+    flex: 1 1 0;
+}
+
+.moeda, .acao {
+    width: 100%;
+}
+
+.moeda {
+    margin-right: 30px;
+}
+
+table {
+    /* border: 1px solid black; */
+    width: 100%;
+    border-spacing: 0;
+    text-align: left;
+    /* border-radius: 10px;
+    overflow: hidden; */
+}
+
+caption {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
