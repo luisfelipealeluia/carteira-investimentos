@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 * {
     margin: 0;
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif;
 }
 
 .container {
@@ -18,9 +20,27 @@
     flex-direction: column;
 }
 
-.sidebar img {
+.sidebar > img {
     /* border: 1px solid black; */
     border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.sidebar .metadata {
+    /* border: 1px solid black; */
+}
+
+.sidebar .metadata > div {
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.metadata img {
+    /* border: 1px solid black; */
+    max-height: 30px;
+    margin-right: 10px;
 }
 
 .main {
@@ -64,6 +84,7 @@ table {
     text-align: left;
     /* border-radius: 10px;
     overflow: hidden; */
+    font-size: 18px;
 }
 
 caption {
